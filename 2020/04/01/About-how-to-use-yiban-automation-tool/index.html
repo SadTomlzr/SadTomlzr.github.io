@@ -16,12 +16,14 @@
 <meta property="og:site_name" content="sadtom&#39;s site">
 <meta property="og:description" content="关于怎么使用易班自动化助手很多人私信我怎么使用易班的自动化助手。当然他们都不是开发者。所以这一篇文档就是为了给一点都不懂代码的人写的教程。–&gt;release版本的使用方法 下面附上下载网址">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/images/pasted-5.png">
 <meta property="article:published_time" content="2020-04-01T03:05:00.000Z">
-<meta property="article:modified_time" content="2020-04-04T06:55:04.399Z">
+<meta property="article:modified_time" content="2020-10-23T01:02:48.504Z">
 <meta property="article:author" content="S A D T O M">
 <meta property="article:tag" content="技术">
 <meta property="article:tag" content="GitHub">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/images/pasted-5.png">
   
     <link rel="alternative" href="/atom.xml" title="sadtom&#39;s site" type="application/atom+xml">
   
@@ -209,12 +211,58 @@
 <a id="more"></a>
 <p>GitHub：<a href="https://github.com/SadTomlzr/yiban_Automation_tool/releases" target="_blank" rel="noopener">https://github.com/SadTomlzr/yiban_Automation_tool/releases</a><br>（觉得这个链接下载太慢的可以使用下面的链接）</p>
 <p>Gitee：<a href="https://gitee.com/lzr9/yiban_Automation_tool/releases/V0.1.1" target="_blank" rel="noopener">https://gitee.com/lzr9/yiban_Automation_tool/releases/V0.1.1</a></p>
+<p>蓝奏云下载地址：<br><a href="https://sadtom.lanzoui.com/b015d4v0f" target="_blank" rel="noopener">https://sadtom.lanzoui.com/b015d4v0f</a><br>密码:aq6n</p>
 <p>下载解压后有一个文件夹和一个使用文档（使用文档名为<code>请先读我.txt</code>）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yiban_Automation_tool</span><br><span class="line">  |-&gt;yiban_tool（文件夹）</span><br><span class="line">  |-&gt;请先读我.txt</span><br></pre></td></tr></table></figure>
-
-
+<h4 id="老版本（V-0-1-2）"><a href="#老版本（V-0-1-2）" class="headerlink" title="老版本（V_0.1.2）"></a>老版本（V_0.1.2）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yiban_Automation_tool_V0.12(老版)</span><br><span class="line">  |-&gt;yiban_tool（文件夹）</span><br><span class="line">  |-&gt;请先读我.txt</span><br></pre></td></tr></table></figure>
 <p>请阅读使用文档:<br>下附使用文档内容</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">这是一个易班自动化签到发微社区，发投票的软件</span><br><span class="line">使用方法：</span><br><span class="line">    -&gt;点开yiban_tool文件夹</span><br><span class="line">    -&gt;找到main.exe</span><br><span class="line">    -&gt;双击即可</span><br><span class="line">注意事项：</span><br><span class="line">    yiban_tool文件夹内有一个user.xlsx文件需要填写自己需要刷的账号信息。内有提示，自行阅读。</span><br></pre></td></tr></table></figure>
+
+<h4 id="新版本（V-1-0）"><a href="#新版本（V-1-0）" class="headerlink" title="新版本（V_1.0）"></a>新版本（V_1.0）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">yiban_Automation_tool_V1.0（新版)</span><br><span class="line">  |-&gt;main.exe</span><br><span class="line">  |-&gt;user.xlsx</span><br><span class="line">  |-&gt;请先读我.txt</span><br></pre></td></tr></table></figure>
+<p>其中user.xlsx中有很多参数</p>
+<table>
+<thead>
+<tr>
+<th>username</th>
+<th align="center">name</th>
+<th align="center">password</th>
+<th align="center">puid</th>
+<th align="center">group_id</th>
+<th align="right">trans</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>可以写账号人的姓名仅作显示用，未参加核心运行任务</td>
+<td align="center">账号</td>
+<td align="center">密码</td>
+<td align="center">院系编号</td>
+<td align="center">群组号</td>
+<td align="right">是否转网薪（1为可以，但要在代码里面开启，并填写自己的信息一般不做使用）</td>
+</tr>
+<tr>
+<td>X某某</td>
+<td align="center">177<strong>**</strong></td>
+<td align="center">xxxxx</td>
+<td align="center">123456</td>
+<td align="center">123456</td>
+<td align="right">2</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><em>其中puid和groupid查找方式让很多人困扰</em></p>
+</blockquote>
+<p>为什么要填写groupid和puid：因为该软件是为了给指定的易班班级刷egpa而使用，每个人加的班级可能不一样，所以我们需要指定一个班级，而这个groupid和puid则是易班中指定对应班级的参数。所以我们要找到这个参数，程序才能到对应的易班班级发表微社区和动态。</p>
+<blockquote>
+<p><strong>puid||group_id获取方法</strong></p>
+</blockquote>
+<ol>
+<li>我们登陆易班的网页版</li>
+<li>可以看到网页左上方有一个<code>我的</code>点击<code>我的</code></li>
+<li>会弹出选项其中有<code>我的群</code>，点击<code>我的群</code>即可找到该账号加入的班群。</li>
+<li>点击你想刷egpa的那个班群。点进去后在浏览器上方查看网址。网址如下<br><img src="/images/pasted-5.png" alt="puid和group_id获取的地方"></li>
+</ol>
+<p>如图打开易班在自己的微社区里面就可以看到这个链接<code>yiban.cn/newgruop/indexPub/group_id/xxxx/puid/yyyy</code>（很关键）<br>其中如我所写的链接。可查看到group_id-&gt;xxxx&emsp;puid-&gt;yyyy切勿弄错了。<br>5. 然后填入对应excel表格，即可。</p>
+<p>最后将易班用户账号密码等信息填入excel表格，点击main程序即可运行。程序就会正常运行，出现timeout错误但是仍然运行则也是正常现象。</p>
+
       
 
       
